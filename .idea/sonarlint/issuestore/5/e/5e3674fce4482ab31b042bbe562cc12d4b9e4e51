@@ -1,0 +1,9 @@
+
+ˆ"squid:ClassVariableVisibilityCheck"SMake counter a static final constant or non-public and provide accessors if needed.(˜¢”¤8¥‚úÒå-
+Š"squid:ClassVariableVisibilityCheck	"PMake text a static final constant or non-public and provide accessors if needed.(øò¨ıÿÿÿÿ8¿ßÓå-
+"squid:ClassVariableVisibilityCheck"XMake price_before a static final constant or non-public and provide accessors if needed.(Ë»Ùˆ8µÉëÒå-
+Œ"squid:ClassVariableVisibilityCheck"WMake price_after a static final constant or non-public and provide accessors if needed.(Øè½–8õ£ëÒå-
+†"squid:ClassVariableVisibilityCheck"QMake image a static final constant or non-public and provide accessors if needed.(¤Ãš 8ÄÔìÒå-
+vsquid:S00116"WRename this field "price_before" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë»Ùˆ8µÉëÒå-
+‹"squid:ClassVariableVisibilityCheck"QMake react a static final constant or non-public and provide accessors if needed.(„©Ïóùÿÿÿÿ8õ×îÒå-
+usquid:S00116"VRename this field "price_after" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øè½–8õ£ëÒå-

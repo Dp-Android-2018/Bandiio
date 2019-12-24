@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <!--<CheckBox-->
+
+    <!--android:id="@+id/checkbox1"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:checked="false"-->
+        <!--android:layout_marginStart="7dp"-->
+    <!--android:layout_marginTop="48dp"/>-->
+
+        <ImageView
+            android:id="@+id/basket_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_2"
+            android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:id="@+id/inner_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/basket_img"
+        android:layout_marginStart="2dp">
+        <TextView
+            android:id="@+id/stayel_name_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Black Short Sleeves"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/txt_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stayel_name_txt"
+            android:layout_marginTop="5dp"
+            android:text="Size: "
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/style_size"
+            android:layout_toEndOf="@id/txt_size"
+            android:layout_marginStart="3dp"
+            android:text="xl"
+            android:layout_below="@id/stayel_name_txt"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sec_rel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inner_relative_layout"
+        android:layout_toEndOf="@id/basket_img"
+        android:layout_marginStart="2dp">
+
+        <TextView
+            android:id="@+id/usd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:text="US$"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/style_price"
+            android:layout_toEndOf="@id/usd2"
+            android:text="405"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorAccent"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/basket_love"
+            android:src="@drawable/ic_like"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/basket_plus"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/sec_rel_layout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_add"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/basket_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sec_rel_layout"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@id/basket_plus"
+        android:text="0"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/basket_minus"
+        android:layout_below="@id/sec_rel_layout"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@id/basket_counter"
+        android:src="@drawable/ic_minus" />
+
+
+</RelativeLayout>

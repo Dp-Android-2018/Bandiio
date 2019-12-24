@@ -1,0 +1,10 @@
+
+vsquid:S00116"WRename this field "complain_txt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÑ¢ö8ŸÊÂýð-
+usquid:S00116"VRename this field "msg_is_sent" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Ì–æ8ã…õ™ó-
+isquid:CommentedOutCodeLineY"<This block of commented-out lines of code should be removed.(€›çÇ8Þýšó-
+jsquid:MaximumInheritanceDepth"<This class has 9 parents which is greater than 5 authorized.(ƒç£âùÿÿÿÿ
+Ksquid:S11256"(Remove the literal "true" boolean value.(è¢Ö÷ùÿÿÿÿ8§×Žšó-
+Qsquid:S1905'".Remove this unnecessary cast to "ProgressBar".(Åö¯àúÿÿÿÿ8ÕÃ™ó-
+psquid:S001178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Ô±ß8ÑÙé™ó-
+Œ"squid:ClassVariableVisibilityCheck"WMake msg_is_sent a static final constant or non-public and provide accessors if needed.(³Ì–æ8û£‡šó-
+ssquid:S00116"TRename this field "send_butt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÝçÐ8Ó©êýð-

@@ -1,0 +1,16 @@
+
+Dsquid:S1659"&Declare "password" on a separate line.(˜ê»û8ÒÕÍÖî-
+jsquid:MaximumInheritanceDepth"<This class has 9 parents which is greater than 5 authorized.(†—ÚĞşÿÿÿÿ
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(µ¾ıÉùÿÿÿÿ8‘Ó­ó-
+xsquid:S00116"YRename this field "confirmed_pass" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ê»û8şßØî-
+Asquid:S1659"#Declare "email" on a separate line.(˜ê»û8ÜÍÖî-
+rsquid:S00100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›şøôùÿÿÿÿ8Ü°×Ùî-
+Dsquid:S1659"&Declare "birthday" on a separate line.(˜ê»û8„œÎÖî-
+Jsquid:S1659",Declare "confirmed_pass" on a separate line.(˜ê»û8şßØî-
+usquid:S00116 "VRename this field "signUp_butt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã÷êâ8Ú¹Çšó-
+Fsquid:S1125@"(Remove the literal "true" boolean value.(¼¼“¸8†İòÙî-
+ysquid:S00116""ZRename this field "progress_signup" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ…Ï„8´ƒ­ó-
+hsquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(ÁË§L8»ª­ó-
+nsquid:S00116"ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ê»û8Ş…ÌÖî-
+isquid:CommentedOutCodeLinez"<This block of commented-out lines of code should be removed.(£²”8”ü°ó-
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(†—ÚĞşÿÿÿÿ

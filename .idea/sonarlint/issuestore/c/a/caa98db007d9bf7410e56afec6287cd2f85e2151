@@ -1,0 +1,10 @@
+
+isquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(ðÖÌ¦8Á§Éœó-
+xsquid:S00116"TRename this field "user_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†üþÿÿÿÿ8ð¾èþî-
+Ksquid:S11254"(Remove the literal "true" boolean value.(ðÓ­åþÿÿÿÿ8ð¾èþî-
+lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÀÓÿ²8ð¾èþî-
+xsquid:S00116"YRename this field "progress_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÖÐ­8—ÓÈœó-
+rsquid:S00100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ ©Ãùÿÿÿÿ8ð¾èþî-
+lsquid:MaximumInheritanceDepth"<This class has 9 parents which is greater than 5 authorized.(ÀÓÿ²8ð¾èþî-
+usquid:S00117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏãÇ›üÿÿÿÿ8ð¾èþî-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(óÍöÒøÿÿÿÿ8øá”ªï-

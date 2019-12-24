@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/skip_splash"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:text="Skip"
+            android:textSize="15sp"
+            android:textColor="@color/colourwhite"
+            android:background="@drawable/circular_buttons"
+            />
+
+
+        <ImageView
+            android:id="@+id/splash_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/skip_splash" />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:weightSum="2"
+    android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/login_splash"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded_corners"
+                android:text="Log In"
+                android:textColor="@color/colorAccent"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:textAllCaps="false"
+                android:layout_alignParentBottom="true"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_marginStart="8dp"
+                android:id="@+id/SignUp_splash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colourwhite"
+                android:textAllCaps="false"
+                android:background="@drawable/round_button"
+                android:text="Sign Up"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"/>
+
+</LinearLayout>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

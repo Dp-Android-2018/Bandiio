@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BasketScreen">
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:id="@+id/Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add "
+            android:layout_marginStart="10dp"
+            android:textSize="10sp"/>
+        <TextView
+            android:id="@+id/price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="US$400 "
+            android:layout_toEndOf="@id/Add"
+            android:textColor="@color/colorAccent"
+            android:textSize="10sp"/>
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="of iteams to enjoy "
+            android:layout_toEndOf="@id/price_text"
+            android:textSize="10sp"/>
+        <TextView
+            android:id="@+id/free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FREE "
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toEndOf="@id/txt"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Standard Shipping"
+            android:layout_toEndOf="@id/free"
+            android:textSize="10sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_chevron_right_black_24dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/line"
+        android:layout_below="@id/relative_layout"
+        android:background="#D7D7D7D7" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/line"
+        android:id="@+id/basket_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relative_layout1"
+        android:layout_marginTop="8dp"/>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+            >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/coppun_text">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_hotcoppons"
+                android:text="Apply your coppoun in next step"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkout_butt"
+                android:textSize="17sp"
+                android:background="@color/colorAccent"
+                android:layout_margin="10dp"
+                android:layout_above="@id/coppun_text"
+                android:text="CONTINUE CHECKOUT"
+                android:textColor="@color/colourwhite"/>
+
+        <ProgressBar
+            android:id="@+id/simpleProgressBar_basket"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:indeterminateTint="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:layout_above="@id/coppun_text"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/checkout_butt">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/selected_txt"
+                android:text="Selected ("
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="8dp"
+                android:drawableStart="@drawable/ic_checkbox"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/numof_selected_items"
+                android:layout_toEndOf="@id/selected_txt"
+                android:text="0"
+                android:textColor="#000"
+                android:layout_marginTop="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/numof_selected_items"
+                android:text=")"
+                android:textColor="#000"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/basket_totalprice"
+                android:layout_alignParentEnd="true"
+                android:text="0.0"
+                android:textColor="@color/colorAccent"
+                android:layout_marginEnd="20dp"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/usd"
+                android:layout_toStartOf="@+id/basket_totalprice"
+                android:text="US$"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/usd"
+                android:text="Subtotal: "
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

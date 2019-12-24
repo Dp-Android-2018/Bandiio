@@ -1,0 +1,3 @@
+
+„squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(ÐÚà”ûÿÿÿÿ8Œ¡õÒå-
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ú©Ä»ÿÿÿÿÿ

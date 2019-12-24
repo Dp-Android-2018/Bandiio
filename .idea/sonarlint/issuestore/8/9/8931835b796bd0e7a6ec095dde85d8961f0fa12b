@@ -1,0 +1,12 @@
+
+ysquid:S00116 "URename this field "product_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºå±ıÿÿÿÿ8…‰³ğò-
+qsquid:S00117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ğ‘ê8ØŒã›ó-
+|squid:S00116("XRename this field "checkout_butt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾½Ÿ»ıÿÿÿÿ8ÙµÿÈñ-
+~squid:S00116%"_Rename this field "numof_selected_items" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Çå¡8íõûğ-
+wsquid:S00116!"XRename this field "product_count" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë„ÒÁ8…‰³ğò-
+˜squid:S1319 "uThe type of the "product_id" object should be an interface such as "List" rather than the implementation "ArrayList".(ºå±ıÿÿÿÿ8…‰³ğò-
+–squid:S1319!"xThe type of the "product_count" object should be an interface such as "List" rather than the implementation "ArrayList".(ë„ÒÁ8…‰³ğò-
+"squid:ClassVariableVisibilityCheck "VMake product_id a static final constant or non-public and provide accessors if needed.(ºå±ıÿÿÿÿ8…‰³ğò-
+~squid:S00116,"ZRename this field "progress_Basket" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÅ©»úÿÿÿÿ8°›ó-
+"squid:ClassVariableVisibilityCheck!"YMake product_count a static final constant or non-public and provide accessors if needed.(ë„ÒÁ8…‰³ğò-
+esquid:MaximumInheritanceDepth"<This class has 9 parents which is greater than 5 authorized.(œšä—

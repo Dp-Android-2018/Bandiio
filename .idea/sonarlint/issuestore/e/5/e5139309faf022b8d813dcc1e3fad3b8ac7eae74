@@ -1,0 +1,17 @@
+
+qsquid:S00101$"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(½ÀÎíşÿÿÿÿ8à˜…å-
+"squid:ClassVariableVisibilityCheck/"SMake adapter a static final constant or non-public and provide accessors if needed.(êÃâûüÿÿÿÿ8Š…ƒ„ï-
+ squid:S1186Ê"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(·‚©8ŸäÈƒï-
+Xsquid:S2864Â"4Iterate over the "entrySet" instead of the "keySet".(·Ôúûûÿÿÿÿ8ŸäÈƒï-
+˜squid:S13196"zThe type of the "file_maps_recycler" object should be an interface such as "Map" rather than the implementation "HashMap".(ï¤ü8Çìòƒï-
+|squid:S001160"XRename this field "progress_home" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õéáûÿÿÿÿ8®¾Ùó-
+qsquid:MaximumInheritanceDepth$"<This class has 9 parents which is greater than 5 authorized.(½ÀÎíşÿÿÿÿ8à˜…å-
+|squid:S001166"]Rename this field "file_maps_recycler" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¤ü8Çìòƒï-
+isquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(Ş’Õù8çîà‚ï-
+–"squid:ClassVariableVisibilityCheck4"\Make file_maps_slider a static final constant or non-public and provide accessors if needed.(ìå‘Üşÿÿÿÿ8™×Åƒï-
+›squid:S13194"xThe type of the "file_maps_slider" object should be an interface such as "Map" rather than the implementation "HashMap".(ìå‘Üşÿÿÿÿ8™×Åƒï-
+squid:S001164"[Rename this field "file_maps_slider" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìå‘Üşÿÿÿÿ8™×Åƒï-
+“"squid:ClassVariableVisibilityCheck6"^Make file_maps_recycler a static final constant or non-public and provide accessors if needed.(ï¤ü8Çìòƒï-
+nsquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(’Êºÿÿÿÿÿ8á‚ï-
+‘"squid:ClassVariableVisibilityCheck+"WMake mDemoSlider a static final constant or non-public and provide accessors if needed.(¾ÿÇƒúÿÿÿÿ8À¥ï-
+vsquid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ª»šüÿÿÿÿ8Ô«¡ñ-

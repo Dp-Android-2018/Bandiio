@@ -1,0 +1,6 @@
+
+"squid:ClassVariableVisibilityCheck"SMake context a static final constant or non-public and provide accessors if needed.(±¹ï±úÿÿÿÿ8µ¹Ôƒï-
+5squid:S2176M"Rename this class.(Â×Öúÿÿÿÿ8š¢Öó-
+usquid:S00117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òªÂäøÿÿÿÿ8š¢Öó-
+nsquid:CommentedOutCodeLineP"<This block of commented-out lines of code should be removed.(º““°øÿÿÿÿ8š¢Öó-
+isquid:CommentedOutCodeLineU"<This block of commented-out lines of code should be removed.(êöªƒ8š¢Öó-

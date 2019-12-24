@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".Login_Screen">
+
+        <TextView
+            android:id="@+id/Skip_ls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="@color/colourwhite"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:layout_marginEnd="25dp"/>
+
+        <ImageView
+            android:id="@+id/back_ls"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/log_ls"
+        android:layout_below="@id/Skip_ls"
+        android:gravity="center"
+        android:id="@+id/login_layout">
+
+        <EditText
+            android:id="@+id/username_ls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colourwhite"
+            android:hint="Username"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_user"
+            android:layout_marginStart="20dp" />
+
+        <EditText
+            android:id="@+id/password_ls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username_ls"
+            android:drawableStart="@drawable/ic_key"
+            android:drawableEnd="@drawable/ic_question"
+            android:drawablePadding="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/colourwhite"
+            android:hint="Password"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/log_ls"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_login"
+        android:scaleType="centerInside"
+        android:background="@drawable/round_button"
+        android:layout_above="@id/last_line"
+        android:layout_marginBottom="8dp"
+        android:layout_centerInParent="true"/>
+
+    <ProgressBar
+        android:id="@+id/simpleProgressBar"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:indeterminateTint="@color/colourwhite"
+        android:layout_above="@id/last_line"
+        android:layout_marginBottom="8dp"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <RelativeLayout
+    android:id="@+id/last_line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="8dp">
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colourwhite" />
+
+    <Button
+        android:id="@+id/sign_ls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/question"
+        android:text="SignUP"
+        android:textAllCaps="false"
+        android:textColor="@color/colourwhite"
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+        android:paddingEnd="20dp"
+        android:textSize="15sp"/>
+
+</RelativeLayout>
+
+
+</RelativeLayout>
